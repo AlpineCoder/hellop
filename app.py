@@ -13,7 +13,7 @@ class myHandler(BaseHTTPRequestHandler):
 		self.send_header('Content-type','text/html')
 		self.end_headers()
 		# Send the html message
-		self.wfile.write("Hello OpenShift!")
+		self.wfile.write("Hello OKD!")
 		return
 
 try:
